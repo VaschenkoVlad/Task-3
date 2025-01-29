@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    overflow-y: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 50px;
+    background-color: #ffffff;
+}
+
+header h2 {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+
+/* Меін */
+
+.color-container {
+    display: flex;
+}
+
+.box {
+    position: relative;
+    width: 310px;
+    height: 157px;
+    background-color: #F44336;
+    color: #ffffff;
+}
+
+.box p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.copy-btn {
+    position: absolute;
+    display: none; 
+    bottom: 55px;
+    left: 100px;
+    padding: 8px 32px;
+    font-size: 18px;
+    background-color: transparent;  
+    color: #ffffff; 
+    border: 2px solid #e6e6f9;   
+    border-radius: 5px;  
+    cursor: pointer;
+    z-index: 10;
+    transition: opacity 0.3s ease;
+}
+
+.box:hover .copy-btn {
+    display: block;
+    opacity: 1;
+}
+
+
+footer {
+    height: 50px;
+    background-color: #ffffff;
+}
+
+footer h2 {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
